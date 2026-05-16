@@ -3,7 +3,7 @@ module "ec2_instance" {
 
   name = "single-instance"
 
-  instance_type = "t3.medium"
+  instance_type = "t3.micro"
   key_name      = "user1"
   monitoring    = true
   subnet_id     = "subnet-eddcdzz4"
